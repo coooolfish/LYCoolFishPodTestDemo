@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYCoolFishPodTestDemo_Example' do
+  pod 'LYCoolFishPodTestDemo', :path => '../'
+
+  target 'LYCoolFishPodTestDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

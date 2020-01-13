@@ -1,0 +1,6 @@
+framework module LYCoolFishPodTestDemo {
+  umbrella header "LYCoolFishPodTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
